@@ -11,6 +11,9 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  showSidebar(){
+    this.status = !this.status;
+  }
   status :boolean=false;
 
 
